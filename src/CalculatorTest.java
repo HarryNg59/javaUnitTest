@@ -20,6 +20,13 @@ public class CalculatorTest {
     }
 
     @Test
+    void sum3() {
+        calculator.setA(2);
+        calculator.setB(3);
+        assertEquals(6, calculator.Sum());
+    }
+
+    @Test
     void multi() {
         calculator.setA(1);
         calculator.setB(1);
